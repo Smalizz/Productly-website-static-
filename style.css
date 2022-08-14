@@ -1,0 +1,231 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+.btn-1{
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: rgb(192, 130, 15);
+    color: white;
+}
+
+.btn-2{
+    border: 1px solid  rgb(179, 179, 241);
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    color: rgb(32, 31, 31);
+    font-weight: 700;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* For the nav background */
+.navbar3{
+    background-color: rgba(255, 255, 255, 0.812);
+    padding-top: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+/* for the list items */
+.nav-bar-4{
+    margin-left: 22rem;
+}
+
+/* for the list text */
+.txt{
+    color: rgb(26, 25, 25);
+    font-weight: 500;
+}
+
+.txt:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.btn-3{
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 15px 25px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-3:hover{
+   background-color: rgb(192, 130, 15);
+   color: white;
+}
+
+.link-1{
+    color: orange;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.link-1:hover{
+    color: orange; 
+}
+
+.text-div-1{
+    margin-top: 8rem;
+}
+
+.img-div-1{
+    margin-top: 5rem;
+}
+
+.text-div-1 h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.text-div-1 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(80, 74, 74);
+    margin-bottom: 50px;
+}
+
+.icon{
+  color: orange;
+  font-size: 20px;
+  margin-right: 5px;
+  display: inline;
+}
+
+/* second section */
+
+.text-div-2{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.text-div-2 h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.look-text p{
+    color: rgb(80, 74, 74);
+    font-weight: 500;
+}
+
+.for-sign-up{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.third-sec{
+    margin-top: 5rem;
+}
+
+.list-div{
+    display: flex;
+}
+
+.tick{
+    margin-right: 2rem;
+    width: 5%;
+    margin-bottom: 1rem;
+}
+
+.fouth-sec, .fifth-sec{
+    margin-top: 3rem;
+}
+
+.sixth-sec{
+    align-items: center;
+    text-align: center;
+    height: 30rem;
+}
+
+.para p{
+    color: rgb(92, 92, 177);
+    font-weight: 500;
+}
+
+strong:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.for-bold h4{
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.for-bold{
+    padding-top: 2rem;
+}
+
+.seventh-sec{
+    height: 30rem;
+}
+
+.last-txt p{
+    color: rgb(80, 74, 74);
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.last-txt p:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.num1{
+    width: 220px;
+    padding: 10px;
+    border: 1px solid rgb(216, 210, 210);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.btn-last{
+    margin-top: 20px;
+}
+
+.last-div{
+    margin-bottom: 3rem;
+    /* height: 15rem; */
+}
+
+span{
+    display: block;
+}
+
+.footer{
+   text-align: center;
+}
+
+.footer p{
+    color: rgb(80, 74, 74);
+    padding-top: 1px;
+}
+
+@media (max-width:900px) {
+    .container{
+        overflow-x: hidden;
+    }
+
+    .text-div-1, .text-div-2{
+        text-align: center;
+    }
+}
